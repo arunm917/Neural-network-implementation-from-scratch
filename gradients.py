@@ -1,10 +1,10 @@
 import numpy as np
 import pandas as pd
-import activation_functions
+import ActivationFunctions
 
-sigmoid = activation_functions.sigmoid()
+sigmoid = ActivationFunctions.sigmoid()
 
-class gradients():
+class Gradients():
     
     def grad_w (self, W, b, x, y):
         y_pred = sigmoid(W, b, x)
