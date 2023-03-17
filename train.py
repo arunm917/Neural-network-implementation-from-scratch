@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-import gdown
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from sklearn.model_selection import train_test_split
@@ -9,10 +8,11 @@ from tqdm.notebook import trange, tqdm
 from sklearn.preprocessing import OneHotEncoder
 from tensorflow import keras
 from sklearn.metrics import accuracy_score
+import Model as model
 import wandb
 import random
 
-wandb.login()
+# wandb.login()
 
 (X_train, Y_train), (X_test, y_test) = keras.datasets.fashion_mnist.load_data()
 X_train, X_val, y_train, y_val = train_test_split(
