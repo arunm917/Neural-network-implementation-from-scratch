@@ -14,7 +14,6 @@ class Model:
         self.A = {}
         self.H = {}
         self.x = x
-        loss_batch = 0
         self.H[0] = self.x.T
 
         for i in range(self.nh + 1):
@@ -57,11 +56,12 @@ class Model:
         Y_val,
         epochs,
         learning_rate,
+        weight_decay,
         hidden_layers,
         neurons_per_layer,
         batch_size,
         optimizer,
-        initialization,
+        initialization_alg,
         activation_function,
     ):
 
