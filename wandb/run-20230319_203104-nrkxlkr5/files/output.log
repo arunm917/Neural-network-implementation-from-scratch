@@ -1,0 +1,82 @@
+
+  0%|                                                   | 0/40 [00:00<?, ?epoch/s]
+
+  2%|█                                          | 1/40 [00:06<04:13,  6.49s/epoch]
+ training loss =  0.098
+validation loss =  0.1
+
+  5%|██▏                                        | 2/40 [00:13<04:07,  6.50s/epoch]
+ training loss =  0.0977
+validation loss =  0.1
+
+  8%|███▏                                       | 3/40 [00:19<04:02,  6.56s/epoch]
+ training loss =  0.0975
+validation loss =  0.1
+validation accuracy =  0.11
+ training loss =  0.0973
+validation loss =  0.1
+
+ 10%|████▎                                      | 4/40 [00:25<03:53,  6.48s/epoch]
+ training loss =  0.0972
+validation loss =  0.1
+
+ 12%|█████▍                                     | 5/40 [00:32<03:53,  6.67s/epoch]
+ training loss =  0.097
+validation loss =  0.1
+
+ 15%|██████▍                                    | 6/40 [00:40<03:55,  6.94s/epoch]
+ training loss =  0.097
+validation loss =  0.1
+
+ 18%|███████▌                                   | 7/40 [00:48<03:57,  7.20s/epoch]
+ training loss =  0.0969
+validation loss =  0.1
+
+ 20%|████████▌                                  | 8/40 [00:55<03:51,  7.23s/epoch]
+ training loss =  0.0968
+validation loss =  0.1
+
+ 22%|█████████▋                                 | 9/40 [01:02<03:38,  7.04s/epoch]
+ training loss =  0.0968
+validation loss =  0.1
+
+ 25%|██████████▌                               | 10/40 [01:09<03:31,  7.03s/epoch]
+ training loss =  0.0967
+validation loss =  0.1
+
+ 28%|███████████▌                              | 11/40 [01:15<03:18,  6.86s/epoch]
+ training loss =  0.0966
+validation loss =  0.1
+
+
+ 32%|█████████████▋                            | 13/40 [01:30<03:15,  7.24s/epoch]
+ training loss =  0.0966
+validation loss =  0.1
+
+ 35%|██████████████▋                           | 14/40 [01:36<03:00,  6.96s/epoch]
+ training loss =  0.0965
+validation loss =  0.1
+
+ 38%|███████████████▊                          | 15/40 [01:43<02:54,  6.96s/epoch]
+ training loss =  0.0965
+validation loss =  0.1
+
+ 40%|████████████████▊                         | 16/40 [01:51<02:48,  7.02s/epoch]
+ training loss =  0.0964
+validation loss =  0.1
+
+ 42%|█████████████████▊                        | 17/40 [01:58<02:43,  7.11s/epoch]
+ training loss =  0.0964
+validation loss =  0.1
+
+ 45%|██████████████████▉                       | 18/40 [02:06<02:42,  7.38s/epoch]
+ training loss =  0.0963
+validation loss =  0.1
+
+ 48%|███████████████████▉                      | 19/40 [02:12<02:28,  7.07s/epoch]
+ training loss =  0.0963
+validation loss =  0.1
+
+ 50%|█████████████████████                     | 20/40 [02:19<02:21,  7.07s/epoch]
+ training loss =  0.0963
+validation loss =  0.1

@@ -1,0 +1,28 @@
+
+  0%|                                                    | 0/6 [00:00<?, ?epoch/s]
+[784, 64, 10]
+ training loss =  0.5723
+validation loss =  1.0726
+
+ 17%|███████▎                                    | 1/6 [00:06<00:33,  6.65s/epoch]
+ training loss =  0.6074
+validation loss =  1.0693
+
+
+ 50%|██████████████████████                      | 3/6 [00:19<00:19,  6.50s/epoch]
+ training loss =  0.6137
+validation loss =  1.0596
+validation accuracy =  0.46
+ training loss =  0.5994
+validation loss =  1.0515
+
+ 67%|█████████████████████████████▎              | 4/6 [00:25<00:12,  6.31s/epoch]
+ training loss =  0.5825
+validation loss =  1.0451
+
+
+100%|████████████████████████████████████████████| 6/6 [00:38<00:00,  6.38s/epoch]
+ training loss =  0.5685
+validation loss =  1.04
+validation accuracy =  0.51
+Test accuracy =  0.51

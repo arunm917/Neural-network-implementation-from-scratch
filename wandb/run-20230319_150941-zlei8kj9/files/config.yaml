@@ -1,0 +1,61 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.14.0
+    framework: keras
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.9.7
+    start_time: 1679218781.866304
+    t:
+      1:
+      - 2
+      - 3
+      - 5
+      - 53
+      - 55
+      2:
+      - 2
+      - 3
+      - 5
+      - 53
+      - 55
+      3:
+      - 2
+      - 17
+      - 23
+      - 37
+      4: 3.9.7
+      5: 0.14.0
+      8:
+      - 3
+      - 5
+activation_function:
+  desc: null
+  value: TANH
+batch_size:
+  desc: null
+  value: 32
+epochs:
+  desc: null
+  value: 100
+initialization:
+  desc: null
+  value: XAVIER
+layer_size:
+  desc: null
+  value: 64
+learning_rate:
+  desc: null
+  value: 1.0e-05
+num_layers:
+  desc: null
+  value: 2
+optimizer:
+  desc: null
+  value: ADAM
+weight_decay:
+  desc: null
+  value: 0.0005

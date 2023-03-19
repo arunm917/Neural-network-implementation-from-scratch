@@ -1,0 +1,369 @@
+
+  1%|█▊                                                                                                                                                                                 | 1/100 [00:01<03:06,  1.88s/epoch]
+[784, 32, 10]
+ training loss =  0.7787
+validation loss =  1.0615
+
+  3%|█████▎                                                                                                                                                                             | 3/100 [00:04<02:15,  1.40s/epoch]
+ training loss =  0.7545
+validation loss =  1.062
+validation accuracy =  0.59
+ training loss =  0.7428
+validation loss =  1.0603
+validation accuracy =  0.6
+ training loss =  0.7346
+validation loss =  1.0583
+
+  4%|███████▏                                                                                                                                                                           | 4/100 [00:06<02:28,  1.54s/epoch]
+ training loss =  0.727
+validation loss =  1.0567
+validation accuracy =  0.6
+ training loss =  0.7201
+validation loss =  1.0551
+
+
+validation accuracy =  0.61
+ training loss =  0.7131
+validation loss =  1.0537
+
+  8%|██████████████▎                                                                                                                                                                    | 8/100 [00:11<02:18,  1.50s/epoch]
+ training loss =  0.703
+validation loss =  1.0514
+
+  9%|████████████████                                                                                                                                                                   | 9/100 [00:14<02:40,  1.76s/epoch]
+ training loss =  0.6943
+validation loss =  1.0501
+validation accuracy =  0.66
+ training loss =  0.6851
+validation loss =  1.0272
+
+
+ 12%|█████████████████████▎                                                                                                                                                            | 12/100 [00:18<02:20,  1.59s/epoch]
+ training loss =  0.6801
+validation loss =  1.0251
+validation accuracy =  0.7
+ training loss =  0.6778
+validation loss =  1.0242
+validation accuracy =  0.7
+ training loss =  0.6766
+validation loss =  1.0237
+
+ 13%|███████████████████████▏                                                                                                                                                          | 13/100 [00:20<02:12,  1.52s/epoch]
+ training loss =  0.6759
+validation loss =  1.0235
+validation accuracy =  0.71
+ training loss =  0.6755
+validation loss =  1.0233
+
+
+ 16%|████████████████████████████▍                                                                                                                                                     | 16/100 [00:24<01:57,  1.40s/epoch]
+ training loss =  0.6752
+validation loss =  1.0232
+validation accuracy =  0.71
+ training loss =  0.6748
+validation loss =  1.0231
+validation accuracy =  0.71
+ training loss =  0.6748
+validation loss =  1.023
+
+ 18%|████████████████████████████████                                                                                                                                                  | 18/100 [00:26<01:51,  1.36s/epoch]
+ training loss =  0.6747
+validation loss =  1.023
+
+
+ 21%|█████████████████████████████████████▍                                                                                                                                            | 21/100 [00:30<01:45,  1.34s/epoch]
+ training loss =  0.6747
+validation loss =  1.023
+validation accuracy =  0.72
+ training loss =  0.6748
+validation loss =  1.023
+validation accuracy =  0.72
+ training loss =  0.675
+validation loss =  1.023
+
+ 22%|███████████████████████████████████████▏                                                                                                                                          | 22/100 [00:32<01:43,  1.33s/epoch]
+ training loss =  0.6753
+validation loss =  1.0231
+validation accuracy =  0.72
+ training loss =  0.6755
+validation loss =  1.0231
+
+
+ 25%|████████████████████████████████████████████▌                                                                                                                                     | 25/100 [00:36<01:39,  1.33s/epoch]
+ training loss =  0.6757
+validation loss =  1.0232
+
+ 27%|████████████████████████████████████████████████                                                                                                                                  | 27/100 [00:38<01:37,  1.33s/epoch]
+ training loss =  0.6759
+validation loss =  1.0233
+validation accuracy =  0.72
+ training loss =  0.676
+validation loss =  1.0234
+
+ 28%|█████████████████████████████████████████████████▊                                                                                                                                | 28/100 [00:40<01:35,  1.33s/epoch]
+ training loss =  0.6762
+validation loss =  1.0235
+validation accuracy =  0.72
+ training loss =  0.6763
+validation loss =  1.0236
+validation accuracy =  0.72
+ training loss =  0.6765
+validation loss =  1.0237
+
+ 30%|█████████████████████████████████████████████████████▍                                                                                                                            | 30/100 [00:42<01:32,  1.32s/epoch]
+ training loss =  0.6766
+validation loss =  1.0238
+
+
+ 33%|██████████████████████████████████████████████████████████▋                                                                                                                       | 33/100 [00:46<01:29,  1.33s/epoch]
+ training loss =  0.6767
+validation loss =  1.0239
+validation accuracy =  0.72
+ training loss =  0.6768
+validation loss =  1.024
+validation accuracy =  0.72
+ training loss =  0.6768
+validation loss =  1.0241
+validation accuracy =  0.72
+ training loss =  0.6769
+validation loss =  1.0241
+
+ 35%|██████████████████████████████████████████████████████████████▎                                                                                                                   | 35/100 [00:49<01:25,  1.32s/epoch]
+ training loss =  0.677
+validation loss =  1.0242
+
+
+ 38%|███████████████████████████████████████████████████████████████████▋                                                                                                              | 38/100 [00:53<01:21,  1.31s/epoch]
+ training loss =  0.6771
+validation loss =  1.0243
+validation accuracy =  0.72
+ training loss =  0.6771
+validation loss =  1.0243
+validation accuracy =  0.72
+ training loss =  0.6772
+validation loss =  1.0244
+
+
+ 41%|████████████████████████████████████████████████████████████████████████▉                                                                                                         | 41/100 [00:56<01:15,  1.28s/epoch]
+ training loss =  0.6773
+validation loss =  1.0245
+validation accuracy =  0.72
+ training loss =  0.6773
+validation loss =  1.0246
+
+ 42%|██████████████████████████████████████████████████████████████████████████▊                                                                                                       | 42/100 [00:58<01:14,  1.29s/epoch]
+ training loss =  0.6774
+validation loss =  1.0248
+
+ 44%|██████████████████████████████████████████████████████████████████████████████▎                                                                                                   | 44/100 [01:00<01:12,  1.30s/epoch]
+ training loss =  0.6774
+validation loss =  1.025
+validation accuracy =  0.73
+ training loss =  0.6775
+validation loss =  1.0252
+
+ 45%|████████████████████████████████████████████████████████████████████████████████                                                                                                  | 45/100 [01:02<01:10,  1.28s/epoch]
+ training loss =  0.6775
+validation loss =  1.0256
+validation accuracy =  0.73
+ training loss =  0.6776
+validation loss =  1.026
+validation accuracy =  0.73
+ training loss =  0.6778
+validation loss =  1.0325
+
+
+ 48%|█████████████████████████████████████████████████████████████████████████████████████▍                                                                                            | 48/100 [01:06<01:07,  1.30s/epoch]
+ training loss =  0.6746
+validation loss =  1.0316
+
+ 50%|█████████████████████████████████████████████████████████████████████████████████████████                                                                                         | 50/100 [01:08<01:04,  1.29s/epoch]
+ training loss =  0.6731
+validation loss =  1.0309
+validation accuracy =  0.72
+ training loss =  0.6715
+validation loss =  1.03
+validation accuracy =  0.72
+ training loss =  0.6686
+validation loss =  1.0286
+validation accuracy =  0.72
+ training loss =  0.6653
+validation loss =  1.0271
+
+ 52%|████████████████████████████████████████████████████████████████████████████████████████████▌                                                                                     | 52/100 [01:11<01:01,  1.28s/epoch]
+ training loss =  0.6632
+validation loss =  1.0257
+
+ 53%|██████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                   | 53/100 [01:12<01:00,  1.29s/epoch]
+ training loss =  0.6567
+validation loss =  1.0232
+
+ 54%|████████████████████████████████████████████████████████████████████████████████████████████████                                                                                  | 54/100 [01:13<00:59,  1.30s/epoch]
+ training loss =  0.6488
+validation loss =  1.0207
+validation accuracy =  0.72
+ training loss =  0.6457
+validation loss =  1.0189
+
+ 56%|███████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                              | 56/100 [01:16<00:56,  1.29s/epoch]
+ training loss =  0.6434
+validation loss =  1.0173
+validation accuracy =  0.72
+ training loss =  0.6414
+validation loss =  1.0159
+
+ 58%|███████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                                          | 58/100 [01:18<00:54,  1.29s/epoch]
+ training loss =  0.6396
+validation loss =  1.0146
+validation accuracy =  0.72
+
+
+ 61%|████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                                                     | 61/100 [01:22<00:50,  1.29s/epoch]
+validation loss =  1.0135
+validation accuracy =  0.72
+ training loss =  0.6366
+validation loss =  1.0124
+validation accuracy =  0.72
+ training loss =  0.6353
+validation loss =  1.0114
+validation accuracy =  0.72
+ training loss =  0.6341
+validation loss =  1.0105
+
+
+ 64%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                                | 64/100 [01:26<00:46,  1.28s/epoch]
+ training loss =  0.633
+validation loss =  1.0097
+
+ 65%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                              | 65/100 [01:27<00:44,  1.28s/epoch]
+ training loss =  0.632
+validation loss =  1.0089
+
+ 67%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                          | 67/100 [01:30<00:42,  1.28s/epoch]
+ training loss =  0.6311
+validation loss =  1.0082
+validation accuracy =  0.72
+ training loss =  0.6303
+validation loss =  1.0075
+
+ 69%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                                                       | 69/100 [01:33<00:39,  1.27s/epoch]
+ training loss =  0.6295
+validation loss =  1.0069
+validation accuracy =  0.72
+ training loss =  0.6288
+validation loss =  1.0063
+
+ 70%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                                     | 70/100 [01:34<00:39,  1.31s/epoch]
+ training loss =  0.6282
+validation loss =  1.0057
+validation accuracy =  0.72
+ training loss =  0.6276
+validation loss =  1.0052
+validation accuracy =  0.72
+ training loss =  0.627
+validation loss =  1.0047
+
+ 72%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                 | 72/100 [01:37<00:36,  1.31s/epoch]
+ training loss =  0.6265
+validation loss =  1.0043
+
+ 73%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                | 73/100 [01:38<00:34,  1.29s/epoch]
+ training loss =  0.626
+validation loss =  1.0038
+validation accuracy =  0.72
+ training loss =  0.6256
+validation loss =  1.0034
+
+
+ 76%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                          | 76/100 [01:42<00:31,  1.33s/epoch]
+ training loss =  0.6252
+validation loss =  1.003
+validation accuracy =  0.72
+ training loss =  0.6248
+validation loss =  1.0026
+validation accuracy =  0.72
+ training loss =  0.6244
+validation loss =  1.0022
+
+
+ 79%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                     | 79/100 [01:46<00:27,  1.31s/epoch]
+ training loss =  0.624
+validation loss =  1.0018
+
+ 81%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                 | 81/100 [01:48<00:24,  1.31s/epoch]
+ training loss =  0.6237
+validation loss =  1.0014
+validation accuracy =  0.72
+ training loss =  0.6234
+validation loss =  1.0011
+
+ 83%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                              | 83/100 [01:51<00:22,  1.30s/epoch]
+ training loss =  0.6231
+validation loss =  1.0007
+validation accuracy =  0.73
+ training loss =  0.6228
+validation loss =  1.0004
+
+ 84%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                            | 84/100 [01:52<00:20,  1.30s/epoch]
+ training loss =  0.6225
+validation loss =  1.0001
+validation accuracy =  0.73
+ training loss =  0.6222
+validation loss =  0.9997
+validation accuracy =  0.73
+ training loss =  0.622
+validation loss =  0.9994
+
+ 86%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                         | 86/100 [01:55<00:18,  1.30s/epoch]
+ training loss =  0.6217
+validation loss =  0.9991
+
+
+ 89%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                   | 89/100 [01:59<00:13,  1.27s/epoch]
+ training loss =  0.6215
+validation loss =  0.9988
+validation accuracy =  0.73
+ training loss =  0.6213
+validation loss =  0.9985
+validation accuracy =  0.73
+ training loss =  0.6211
+validation loss =  0.9982
+
+
+ 92%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊              | 92/100 [02:03<00:10,  1.32s/epoch]
+ training loss =  0.6209
+validation loss =  0.9979
+validation accuracy =  0.73
+ training loss =  0.6208
+validation loss =  0.9977
+validation accuracy =  0.73
+ training loss =  0.6206
+validation loss =  0.9974
+
+ 93%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌            | 93/100 [02:04<00:09,  1.30s/epoch]
+ training loss =  0.6205
+validation loss =  0.9971
+validation accuracy =  0.73
+ training loss =  0.6204
+validation loss =  0.9969
+
+ 95%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████         | 95/100 [02:07<00:06,  1.31s/epoch]
+ training loss =  0.6202
+validation loss =  0.9966
+
+ 96%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉       | 96/100 [02:08<00:05,  1.31s/epoch]
+ training loss =  0.6201
+validation loss =  0.9964
+validation accuracy =  0.73
+ training loss =  0.6201
+validation loss =  0.9962
+
+ 98%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍   | 98/100 [02:11<00:02,  1.30s/epoch]
+ training loss =  0.62
+validation loss =  0.9959
+validation accuracy =  0.73
+ training loss =  0.6199
+validation loss =  0.9957
+
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [02:13<00:00,  1.34s/epoch]

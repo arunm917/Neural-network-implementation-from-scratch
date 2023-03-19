@@ -1,0 +1,33 @@
+2023-03-19 21:29:46,731 INFO    Thread-9  :19872 [wandb_setup.py:_flush():76] Configure stats pid to 19872
+2023-03-19 21:29:46,733 INFO    Thread-9  :19872 [wandb_setup.py:_flush():76] Loading settings from C:\Users\arunk\.config\wandb\settings
+2023-03-19 21:29:46,734 INFO    Thread-9  :19872 [wandb_setup.py:_flush():76] Loading settings from G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\settings
+2023-03-19 21:29:46,734 INFO    Thread-9  :19872 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'CS6910_Assignment1', 'entity': 'arunm917', 'root_dir': 'G:\\Other computers\\My Computer\\Courses\\Deep learning 2023\\CS6910_Assignment1', 'sweep_id': 'xl56ubqx', 'run_id': '2u70fstv', 'sweep_param_path': 'G:\\Other computers\\My Computer\\Courses\\Deep learning 2023\\CS6910_Assignment1\\wandb\\sweep-xl56ubqx\\config-2u70fstv.yaml'}
+2023-03-19 21:29:46,734 INFO    Thread-9  :19872 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-19 21:29:46,734 INFO    Thread-9  :19872 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': 'g:\\Other computers\\My Computer\\Courses\\Deep learning 2023\\CS6910_Assignment1\\train.py'}
+2023-03-19 21:29:46,736 INFO    Thread-9  :19872 [wandb_init.py:_log_setup():506] Logging user logs to G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_212946-2u70fstv\logs\debug.log
+2023-03-19 21:29:46,737 INFO    Thread-9  :19872 [wandb_init.py:_log_setup():507] Logging internal logs to G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_212946-2u70fstv\logs\debug-internal.log
+2023-03-19 21:29:46,737 INFO    Thread-9  :19872 [wandb_init.py:init():546] calling init triggers
+2023-03-19 21:29:46,737 INFO    Thread-9  :19872 [wandb_init.py:init():552] wandb.init called with sweep_config: {'activation_function': 'TANH', 'batch_size': 8, 'epochs': 10, 'initialization': 'XAVIER', 'layer_size': 64, 'learning_rate': 1e-06, 'loss_function': 'CE', 'num_layers': 1, 'optimizer': 'ADAM', 'weight_decay': 0.0005}
+config: {}
+2023-03-19 21:29:46,737 INFO    Thread-9  :19872 [wandb_init.py:init():602] starting backend
+2023-03-19 21:29:46,737 INFO    Thread-9  :19872 [wandb_init.py:init():606] setting up manager
+2023-03-19 21:29:46,762 INFO    Thread-9  :19872 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-19 21:29:46,793 INFO    Thread-9  :19872 [wandb_init.py:init():613] backend started and connected
+2023-03-19 21:29:46,810 INFO    Thread-9  :19872 [wandb_run.py:_config_callback():1251] config_cb None None {'activation_function': 'TANH', 'batch_size': 8, 'epochs': 10, 'initialization': 'XAVIER', 'layer_size': 64, 'learning_rate': 1e-06, 'loss_function': 'CE', 'num_layers': 1, 'optimizer': 'ADAM', 'weight_decay': 0.0005}
+2023-03-19 21:29:46,811 INFO    Thread-9  :19872 [wandb_init.py:init():701] updated telemetry
+2023-03-19 21:29:46,945 INFO    Thread-9  :19872 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-19 21:29:48,172 INFO    Thread-9  :19872 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-19 21:29:48,581 INFO    Thread-9  :19872 [wandb_run.py:_on_init():2142] got version response 
+2023-03-19 21:29:48,582 INFO    Thread-9  :19872 [wandb_init.py:init():789] starting run threads in backend
+2023-03-19 21:29:50,565 INFO    Thread-9  :19872 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-19 21:29:50,565 INFO    Thread-9  :19872 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-19 21:29:50,566 INFO    Thread-9  :19872 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-19 21:29:50,566 INFO    Thread-9  :19872 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-19 21:29:50,567 INFO    Thread-9  :19872 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-19 21:31:03,155 INFO    Thread-9  :19872 [wandb_run.py:_finish():1854] finishing run arunm917/CS6910_Assignment1/2u70fstv
+2023-03-19 21:31:03,155 INFO    Thread-9  :19872 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-19 21:31:03,157 INFO    Thread-9  :19872 [wandb_run.py:_restore():2066] restore
+2023-03-19 21:31:03,157 INFO    Thread-9  :19872 [wandb_run.py:_restore():2072] restore done
+2023-03-19 21:31:10,752 INFO    Thread-9  :19872 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-19 21:31:10,753 INFO    Thread-9  :19872 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-19 21:31:10,779 INFO    Thread-9  :19872 [wandb_run.py:_footer_sync_info():3380] logging synced files

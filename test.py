@@ -1,6 +1,8 @@
 import numpy as np
 import DataPreprocessing
+import ModelFinal
 
+model = ModelFinal.Model()
 data = DataPreprocessing.DataPreprocessing()
 
 (

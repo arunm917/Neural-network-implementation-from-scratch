@@ -1,0 +1,95 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.14.0
+    framework: keras
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.9.7
+    start_time: 1679242058.388691
+    t:
+      1:
+      - 2
+      - 3
+      - 5
+      - 53
+      - 55
+      2:
+      - 2
+      - 3
+      - 5
+      - 53
+      - 55
+      3:
+      - 2
+      - 17
+      - 23
+      - 37
+      4: 3.9.7
+      5: 0.14.0
+      8:
+      - 3
+      - 5
+    visualize:
+      Confusion_matrix:
+        panel_config:
+          fieldSettings:
+            Actual: Actual
+            Predicted: Predicted
+            nPredictions: nPredictions
+          panelDefId: wandb/confusion_matrix/v1
+          stringSettings:
+            title: ''
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: Confusion_matrix_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+activation_function:
+  desc: null
+  value: TANH
+batch_size:
+  desc: null
+  value: 8
+epochs:
+  desc: null
+  value: 6
+initialization:
+  desc: null
+  value: XAVIER
+layer_size:
+  desc: null
+  value: 64
+learning_rate:
+  desc: null
+  value: 1.0e-06
+loss_function:
+  desc: null
+  value: CE
+num_layers:
+  desc: null
+  value: 1
+optimizer:
+  desc: null
+  value: ADAM
+weight_decay:
+  desc: null
+  value: 0.0005

@@ -1,0 +1,27 @@
+
+[784, 64, 10]
+  0%|                                                    | 0/5 [00:00<?, ?epoch/s]
+ training loss =  0.624
+validation loss =  1.0831
+
+ 20%|████████▊                                   | 1/5 [00:06<00:26,  6.69s/epoch]
+ training loss =  0.6805
+validation loss =  1.069
+
+ 40%|█████████████████▌                          | 2/5 [00:13<00:20,  6.93s/epoch]
+ training loss =  0.6504
+validation loss =  1.0627
+
+ 60%|██████████████████████████▍                 | 3/5 [00:20<00:13,  6.60s/epoch]
+ training loss =  0.6284
+validation loss =  1.0588
+
+ 80%|███████████████████████████████████▏        | 4/5 [00:25<00:06,  6.35s/epoch]
+ training loss =  0.6148
+validation loss =  1.057
+validation accuracy =  0.46
+100%|████████████████████████████████████████████| 5/5 [00:32<00:00,  6.40s/epoch]
+C:\Users\arunk\anaconda3\lib\site-packages\seaborn\matrix.py:550: UserWarning: Starting a Matplotlib GUI outside of the main thread will likely fail.
+  ax = plt.gca()
+g:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\ModelFinal.py:397: UserWarning: Starting a Matplotlib GUI outside of the main thread will likely fail.
+  plt.show()

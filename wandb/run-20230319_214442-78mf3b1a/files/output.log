@@ -1,0 +1,29 @@
+
+[784, 64, 10]
+  0%|                                                    | 0/6 [00:00<?, ?epoch/s]
+ training loss =  0.4672
+validation loss =  1.045
+
+
+ 33%|██████████████▋                             | 2/6 [00:13<00:28,  7.03s/epoch]
+ training loss =  0.4444
+validation loss =  1.0378
+validation accuracy =  0.16
+ training loss =  0.4662
+validation loss =  1.041
+
+
+ 67%|█████████████████████████████▎              | 4/6 [00:26<00:13,  6.60s/epoch]
+ training loss =  0.5026
+validation loss =  1.0537
+
+ 83%|████████████████████████████████████▋       | 5/6 [00:33<00:06,  6.82s/epoch]
+ training loss =  0.5186
+validation loss =  1.0655
+validation accuracy =  0.44
+ training loss =  0.5278
+validation loss =  1.0694
+validation accuracy =  0.48
+100%|████████████████████████████████████████████| 6/6 [00:40<00:00,  6.79s/epoch]
+g:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\ModelFinal.py:392: UserWarning: Starting a Matplotlib GUI outside of the main thread will likely fail.
+  plt.imshow(confusion_mat, interpolation='nearest', cmap=plt.cm.Blues)

@@ -1,0 +1,26 @@
+2023-03-19 17:26:48,638 INFO    Thread-9  :18800 [wandb_setup.py:_flush():76] Configure stats pid to 18800
+2023-03-19 17:26:48,640 INFO    Thread-9  :18800 [wandb_setup.py:_flush():76] Loading settings from C:\Users\arunk\.config\wandb\settings
+2023-03-19 17:26:48,640 INFO    Thread-9  :18800 [wandb_setup.py:_flush():76] Loading settings from G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\settings
+2023-03-19 17:26:48,641 INFO    Thread-9  :18800 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'CS6910_Assignment1', 'entity': 'arunm917', 'root_dir': 'G:\\Other computers\\My Computer\\Courses\\Deep learning 2023\\CS6910_Assignment1', 'sweep_id': '14vwtevp', 'run_id': 'g9kh0djh', 'sweep_param_path': 'G:\\Other computers\\My Computer\\Courses\\Deep learning 2023\\CS6910_Assignment1\\wandb\\sweep-14vwtevp\\config-g9kh0djh.yaml'}
+2023-03-19 17:26:48,641 INFO    Thread-9  :18800 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-19 17:26:48,641 INFO    Thread-9  :18800 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': 'g:\\Other computers\\My Computer\\Courses\\Deep learning 2023\\CS6910_Assignment1\\train.py'}
+2023-03-19 17:26:48,642 INFO    Thread-9  :18800 [wandb_init.py:_log_setup():506] Logging user logs to G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_172648-g9kh0djh\logs\debug.log
+2023-03-19 17:26:48,643 INFO    Thread-9  :18800 [wandb_init.py:_log_setup():507] Logging internal logs to G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_172648-g9kh0djh\logs\debug-internal.log
+2023-03-19 17:26:48,643 INFO    Thread-9  :18800 [wandb_init.py:init():546] calling init triggers
+2023-03-19 17:26:48,644 INFO    Thread-9  :18800 [wandb_init.py:init():552] wandb.init called with sweep_config: {'activation_function': 'TANH', 'batch_size': 1, 'epochs': 100, 'initialization': 'XAVIER', 'layer_size': 64, 'learning_rate': 1e-05, 'num_layers': 1, 'optimizer': 'SGD', 'weight_decay': 0.0005}
+config: {}
+2023-03-19 17:26:48,644 INFO    Thread-9  :18800 [wandb_init.py:init():602] starting backend
+2023-03-19 17:26:48,644 INFO    Thread-9  :18800 [wandb_init.py:init():606] setting up manager
+2023-03-19 17:26:48,665 INFO    Thread-9  :18800 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-03-19 17:26:48,691 INFO    Thread-9  :18800 [wandb_init.py:init():613] backend started and connected
+2023-03-19 17:26:48,706 INFO    Thread-9  :18800 [wandb_run.py:_config_callback():1251] config_cb None None {'activation_function': 'TANH', 'batch_size': 1, 'epochs': 100, 'initialization': 'XAVIER', 'layer_size': 64, 'learning_rate': 1e-05, 'num_layers': 1, 'optimizer': 'SGD', 'weight_decay': 0.0005}
+2023-03-19 17:26:48,706 INFO    Thread-9  :18800 [wandb_init.py:init():701] updated telemetry
+2023-03-19 17:26:48,843 INFO    Thread-9  :18800 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-19 17:26:49,964 INFO    Thread-9  :18800 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-19 17:26:50,360 INFO    Thread-9  :18800 [wandb_run.py:_on_init():2142] got version response 
+2023-03-19 17:26:50,361 INFO    Thread-9  :18800 [wandb_init.py:init():789] starting run threads in backend
+2023-03-19 17:26:52,472 INFO    Thread-9  :18800 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-19 17:26:52,472 INFO    Thread-9  :18800 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-19 17:26:52,473 INFO    Thread-9  :18800 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-19 17:26:52,473 INFO    Thread-9  :18800 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-19 17:26:52,474 INFO    Thread-9  :18800 [wandb_init.py:init():831] run started, returning control to user process

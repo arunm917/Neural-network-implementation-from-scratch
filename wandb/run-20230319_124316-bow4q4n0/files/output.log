@@ -1,0 +1,18 @@
+
+[784, 32, 10]
+  0%|                                                                                                                                                                                           | 0/100 [00:00<?, ?epoch/s]
+ training loss =  0.2763
+validation loss =  1.0878
+
+
+  2%|███▌                                                                                                                                                                               | 2/100 [00:23<19:03, 11.67s/epoch]
+ training loss =  0.1844
+validation loss =  1.0658
+validation accuracy =  0.43
+ training loss =  0.1558
+validation loss =  1.0501
+
+  3%|█████▎                                                                                                                                                                             | 3/100 [00:34<18:40, 11.55s/epoch]
+ training loss =  0.1392
+validation loss =  1.0393
+

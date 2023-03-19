@@ -38,21 +38,6 @@ data = DataPreprocessing.DataPreprocessing()
     y_test,
 ) = data.dataloading()
 
-# (X_train, Y_train), (X_test, y_test) = keras.datasets.fashion_mnist.load_data()
-# X_train, X_val, y_train, y_val = train_test_split(
-#     X_train, Y_train, stratify=Y_train, random_state=7, test_size=0.1
-# )
-# X_train_scaled = X_train.reshape(len(X_train), 28 * 28) / 255.0
-# X_val_scaled = X_val.reshape(len(X_val), 28 * 28) / 255.0
-# X_test_scaled = X_test.reshape(len(X_test), 28 * 28) / 255.0
-
-# enc = OneHotEncoder()
-# y_train_enc = enc.fit_transform(np.expand_dims(y_train, 1)).toarray()
-# y_val_enc = enc.fit_transform(np.expand_dims(y_val, 1)).toarray()
-# y_test_enc = enc.fit_transform(np.expand_dims(y_test, 1)).toarray()
-# print(y_train_enc.shape, y_val_enc.shape, y_test_enc.shape)
-
-
 # model.fit(X = X_train_scaled,
 #           Y = y_train_enc,
 #           X_val = X_val_scaled,
@@ -85,19 +70,21 @@ data = DataPreprocessing.DataPreprocessing()
 # )
 #### Sweep configuration ####
 sweep_configuration = {
-    "method": "random",
+    "method": "grid",
     "name": "sweep",
     "metric": {"goal": "minimize", "name": "loss_epoch"},
     "parameters": {
-        "epochs": {"values": [20]},
-        "num_layers": {"values": [1, 2]},
-        "layer_size": {"values": [32, 64, 128]},
-        "learning_rate": {"values": [1e-4, 1e-5, 5e-6]},
-        "weight_decay": {"values": [0, 0.0005, 0.05]},
-        "optimizer": {"values": ["SGD", "MGD", "NAG", "RMSPROP", "ADAM", "NADAM"]},
-        "batch_size": {"values": [16, 32]},
-        "initialization": {"values": ["RANDOM", "XAVIER", "HE"]},
-        "activation_function": {"values": ["SIGMOID", "TANH"]},
+        "epochs": {"values": [25]},
+        "num_layers": {"values": [2]},
+        "layer_size": {"values": [64]},
+        "learning_rate": {"values": [1e-5]},
+        "weight_decay": {"values": [0.0005]},
+        "optimizer": {"values": ["ADAM"]},
+        "batch_size": {"values": [1]},
+        "initialization": {"values": ["XAVIER"]},
+        "activation_function": {"values": ["TANH"]},
+        "loss_function": {"values": ["CE"]},
+        # "dataset": {"values": ["FASHION_MNIST"]},
     },
 }
 
@@ -116,12 +103,16 @@ def wandbsweeps():
         + "act"
         + str(wandb.config.activation_function)
     )
+    # if wandb.config.dataset == 'FASHION_MNIST'
+
     model.fit(
         X=X_train_scaled,
         Y=y_train_enc,
         X_val=X_val_scaled,
         Y_val=y_val,
         Y_val_enc=y_val_enc,
+        X_test=X_test_scaled,
+        Y_test=y_test,
         epochs=wandb.config.epochs,
         learning_rate=wandb.config.learning_rate,
         weight_decay=wandb.config.weight_decay,
@@ -131,8 +122,11 @@ def wandbsweeps():
         optimizer=wandb.config.optimizer,
         initialization_alg=wandb.config.initialization,
         activation_function=wandb.config.activation_function,
+        loss_function=wandb.config.loss_function,
+        # dataset=wandb.config.dataset,
     )
 
 
 sweep_id = wandb.sweep(sweep=sweep_configuration, project="CS6910_Assignment1")
-wandb.agent(sweep_id, function=wandbsweeps, count=3)
+wandb.agent(sweep_id, function=wandbsweeps)
+# wandb.agent(sweep_id, function=wandbsweeps, count=3)
