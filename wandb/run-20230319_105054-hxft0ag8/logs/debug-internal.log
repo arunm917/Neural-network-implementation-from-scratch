@@ -1,0 +1,594 @@
+2023-03-19 10:50:54,120 INFO    StreamThr :15368 [internal.py:wandb_internal():87] W&B internal server running at pid: 15368, started at: 2023-03-19 10:50:54.116591
+2023-03-19 10:50:54,123 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status
+2023-03-19 10:50:54,136 INFO    WriterThread:15368 [datastore.py:open_for_write():85] open: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\run-hxft0ag8.wandb
+2023-03-19 10:50:54,152 DEBUG   SenderThread:15368 [sender.py:send():336] send: header
+2023-03-19 10:50:54,308 DEBUG   SenderThread:15368 [sender.py:send():336] send: run
+2023-03-19 10:50:55,688 INFO    SenderThread:15368 [dir_watcher.py:__init__():219] watching files in: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files
+2023-03-19 10:50:55,689 INFO    SenderThread:15368 [sender.py:_start_run_threads():1078] run started: hxft0ag8 with start time 1679203254.134695
+2023-03-19 10:50:55,690 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: summary_record
+2023-03-19 10:50:55,698 INFO    SenderThread:15368 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-19 10:50:55,705 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: check_version
+2023-03-19 10:50:55,706 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: check_version
+2023-03-19 10:50:56,077 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: run_start
+2023-03-19 10:50:56,088 DEBUG   HandlerThread:15368 [system_info.py:__init__():31] System info init
+2023-03-19 10:50:56,089 DEBUG   HandlerThread:15368 [system_info.py:__init__():46] System info init done
+2023-03-19 10:50:56,089 INFO    HandlerThread:15368 [system_monitor.py:start():183] Starting system monitor
+2023-03-19 10:50:56,089 INFO    SystemMonitor:15368 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-03-19 10:50:56,089 INFO    HandlerThread:15368 [system_monitor.py:probe():204] Collecting system info
+2023-03-19 10:50:56,093 INFO    SystemMonitor:15368 [interfaces.py:start():187] Started cpu monitoring
+2023-03-19 10:50:56,094 INFO    SystemMonitor:15368 [interfaces.py:start():187] Started disk monitoring
+2023-03-19 10:50:56,095 DEBUG   HandlerThread:15368 [system_info.py:probe():195] Probing system
+2023-03-19 10:50:56,095 INFO    SystemMonitor:15368 [interfaces.py:start():187] Started memory monitoring
+2023-03-19 10:50:56,105 INFO    SystemMonitor:15368 [interfaces.py:start():187] Started network monitoring
+2023-03-19 10:50:56,110 DEBUG   HandlerThread:15368 [system_info.py:_probe_git():180] Probing git
+2023-03-19 10:50:56,291 DEBUG   HandlerThread:15368 [system_info.py:_probe_git():188] Probing git done
+2023-03-19 10:50:56,292 DEBUG   HandlerThread:15368 [system_info.py:probe():240] Probing system done
+2023-03-19 10:50:56,292 DEBUG   HandlerThread:15368 [system_monitor.py:probe():213] {'os': 'Windows-10-10.0.22000-SP0', 'python': '3.9.7', 'heartbeatAt': '2023-03-19T05:20:56.095519', 'startedAt': '2023-03-19T05:20:54.047907', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'g:\\Other computers\\My Computer\\Courses\\Deep learning 2023\\CS6910_Assignment1\\train.py', 'codePath': 'train.py', 'git': {'remote': 'https://github.com/arunm917/CS6910_Assignment1.git', 'commit': 'b0091ded098aa39104dc9ec52daae2d52bf45a39'}, 'email': '53330301+arunm917@users.noreply.github.com', 'root': 'G:/Other computers/My Computer/Courses/Deep learning 2023/CS6910_Assignment1', 'host': 'Arun-PC', 'username': 'arunk', 'executable': 'C:\\Users\\arunk\\anaconda3\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1382.0, 'min': 0.0, 'max': 1382.0}, 'cpu_freq_per_core': [{'current': 1382.0, 'min': 0.0, 'max': 1382.0}], 'disk': {'total': 147.53222274780273, 'used': 140.14131546020508}, 'memory': {'total': 7.729286193847656}}
+2023-03-19 10:50:56,292 INFO    HandlerThread:15368 [system_monitor.py:probe():214] Finished collecting system info
+2023-03-19 10:50:56,292 INFO    HandlerThread:15368 [system_monitor.py:probe():217] Publishing system info
+2023-03-19 10:50:56,292 DEBUG   HandlerThread:15368 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-19 10:50:56,298 DEBUG   HandlerThread:15368 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-19 10:50:56,298 DEBUG   HandlerThread:15368 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-19 10:50:56,696 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_created():278] file/dir created: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\wandb-summary.json
+2023-03-19 10:50:56,697 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_created():278] file/dir created: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\requirements.txt
+2023-03-19 10:50:56,698 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_created():278] file/dir created: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\conda-environment.yaml
+2023-03-19 10:50:57,659 DEBUG   HandlerThread:15368 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-19 10:50:57,666 INFO    HandlerThread:15368 [system_monitor.py:probe():219] Finished publishing system info
+2023-03-19 10:50:57,677 DEBUG   SenderThread:15368 [sender.py:send():336] send: files
+2023-03-19 10:50:57,678 INFO    SenderThread:15368 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-03-19 10:50:57,709 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:50:57,710 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:50:57,714 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_created():278] file/dir created: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\wandb-metadata.json
+2023-03-19 10:50:58,229 DEBUG   SenderThread:15368 [sender.py:send():336] send: telemetry
+2023-03-19 10:50:58,714 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_created():278] file/dir created: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:50:58,901 INFO    wandb-upload_0:15368 [upload_job.py:push():138] Uploaded file C:\Users\arunk\AppData\Local\Temp\tmp_lgcinolwandb\8zd1hod7-wandb-metadata.json
+2023-03-19 10:50:59,246 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:51:04,285 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:51:06,820 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:51:10,055 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:51:12,727 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:51:12,727 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:51:14,930 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:51:15,258 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:51:20,732 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:51:21,013 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:51:25,778 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:51:27,110 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\config.yaml
+2023-03-19 10:51:27,743 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:51:27,743 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:51:29,139 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:51:31,435 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:51:35,236 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:51:37,098 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:51:37,254 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:51:42,478 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:51:42,759 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:51:42,759 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:51:43,338 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:51:48,384 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:51:51,452 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:51:53,640 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:51:56,118 DEBUG   SystemMonitor:15368 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2023-03-19 10:51:56,118 DEBUG   SenderThread:15368 [sender.py:send():336] send: stats
+2023-03-19 10:51:57,555 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:51:57,774 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:51:57,774 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:51:59,368 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:52:04,397 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:52:04,665 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:52:09,431 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:52:12,769 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:52:12,785 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:52:12,785 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:52:15,344 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:52:20,879 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:52:20,942 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:52:25,972 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:52:26,129 DEBUG   SenderThread:15368 [sender.py:send():336] send: stats
+2023-03-19 10:52:27,804 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:52:27,804 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:52:28,976 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:52:31,460 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:52:35,064 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:52:36,736 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:52:37,096 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:52:41,784 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:52:42,819 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:52:42,819 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:52:43,194 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:52:47,371 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:52:51,324 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:52:52,402 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:52:56,136 DEBUG   SenderThread:15368 [sender.py:send():336] send: stats
+2023-03-19 10:52:57,415 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:52:57,603 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:52:57,822 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:52:57,822 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:53:03,400 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:53:05,532 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:53:09,048 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:53:12,848 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:53:12,848 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:53:13,660 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:53:14,348 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:53:19,637 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:53:19,746 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:53:24,684 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:53:26,151 DEBUG   SenderThread:15368 [sender.py:send():336] send: stats
+2023-03-19 10:53:27,870 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:53:27,870 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:53:27,870 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:53:30,557 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:53:36,000 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:53:36,219 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:53:41,470 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:53:42,095 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:53:42,892 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:53:42,892 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:53:46,670 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:53:50,206 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:53:51,909 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:53:56,154 DEBUG   SenderThread:15368 [sender.py:send():336] send: stats
+2023-03-19 10:53:57,170 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:53:57,310 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:53:57,904 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:53:57,904 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:53:58,326 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:54:02,498 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:54:03,410 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:54:07,791 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:54:11,546 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:54:12,874 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:54:12,921 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:54:12,921 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:54:17,632 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:54:18,069 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:54:23,097 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:54:25,744 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:54:26,166 DEBUG   SenderThread:15368 [sender.py:send():336] send: stats
+2023-03-19 10:54:27,932 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:54:27,932 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:54:28,448 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:54:33,635 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:54:33,869 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:54:38,682 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:54:39,968 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:54:42,937 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:54:42,937 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:54:44,484 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:54:48,097 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:54:50,253 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:54:54,190 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:54:55,518 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:54:56,175 DEBUG   SenderThread:15368 [sender.py:send():336] send: stats
+2023-03-19 10:54:57,956 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:54:57,956 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:55:00,534 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:55:02,317 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:55:05,807 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:55:10,427 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:55:11,037 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:55:12,974 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:55:12,974 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:55:16,319 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:55:16,522 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:55:21,350 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:55:24,653 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:55:26,184 DEBUG   SenderThread:15368 [sender.py:send():336] send: stats
+2023-03-19 10:55:27,200 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:55:27,978 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:55:27,978 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:55:32,772 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:55:32,803 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:55:37,987 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:55:38,862 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:55:42,993 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:55:42,993 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:55:43,524 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:55:46,992 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:55:49,336 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:55:52,062 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:55:54,469 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:55:56,187 DEBUG   SenderThread:15368 [sender.py:send():336] send: stats
+2023-03-19 10:55:58,016 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:55:58,016 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:55:59,702 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:56:00,187 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:56:04,718 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:56:06,278 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:56:09,934 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:56:13,028 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:56:13,028 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:56:16,282 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:56:18,460 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:56:21,836 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:56:22,528 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:56:26,200 DEBUG   SenderThread:15368 [sender.py:send():336] send: stats
+2023-03-19 10:56:27,215 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:56:28,028 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:56:28,028 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:56:30,656 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:56:32,797 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:56:36,737 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:56:38,518 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:56:43,039 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:56:43,039 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:56:43,805 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:56:44,861 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:56:48,861 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:56:50,954 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:56:52,985 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:56:54,235 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:56:56,204 DEBUG   SenderThread:15368 [sender.py:send():336] send: stats
+2023-03-19 10:56:58,064 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:56:58,064 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:56:59,080 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:56:59,611 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:57:04,642 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:57:07,194 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:57:09,741 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:57:13,077 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:57:13,077 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:57:14,937 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:57:15,322 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:57:19,971 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:57:25,267 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:57:25,485 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:57:26,204 DEBUG   SenderThread:15368 [sender.py:send():336] send: stats
+2023-03-19 10:57:28,095 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:57:28,095 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:57:30,939 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:57:32,595 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:57:33,602 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:57:36,227 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:57:38,672 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:57:41,469 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:57:41,719 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:57:43,110 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:57:43,110 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:57:46,795 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:57:46,935 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:57:51,998 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:57:54,911 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:57:56,208 DEBUG   SenderThread:15368 [sender.py:send():336] send: stats
+2023-03-19 10:57:57,223 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:57:58,145 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:57:58,145 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:58:00,996 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:58:02,626 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:58:03,032 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:58:07,657 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:58:09,121 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:58:12,903 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:58:13,153 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:58:13,153 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:58:17,251 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:58:18,220 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:58:23,332 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:58:23,481 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:58:26,209 DEBUG   SenderThread:15368 [sender.py:send():336] send: stats
+2023-03-19 10:58:28,162 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:58:28,162 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:58:28,695 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:58:31,441 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:58:33,770 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:58:39,011 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:58:39,570 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:58:43,168 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:58:43,168 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:58:44,270 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:58:45,671 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:58:49,341 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:58:53,777 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:58:54,887 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:58:56,217 DEBUG   SenderThread:15368 [sender.py:send():336] send: stats
+2023-03-19 10:58:58,197 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:58:58,197 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:59:00,286 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:59:01,880 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:59:05,333 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:59:07,972 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:59:10,535 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:59:13,222 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:59:13,222 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:59:15,716 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:59:16,091 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:59:20,738 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:59:22,168 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:59:25,918 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:59:26,230 DEBUG   SenderThread:15368 [sender.py:send():336] send: stats
+2023-03-19 10:59:28,227 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:59:28,227 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:59:29,274 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:59:30,289 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:59:31,758 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:59:37,338 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:59:37,401 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:59:42,370 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:59:43,239 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:59:43,239 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:59:43,489 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:59:47,817 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:59:51,615 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:59:52,818 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:59:56,237 DEBUG   SenderThread:15368 [sender.py:send():336] send: stats
+2023-03-19 10:59:57,708 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 10:59:58,037 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 10:59:58,255 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 10:59:58,255 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 10:59:59,740 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:00:03,046 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:00:05,828 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:00:08,234 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:00:13,279 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 11:00:13,279 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 11:00:13,764 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:00:13,936 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:00:18,811 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:00:20,022 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:00:23,863 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:00:26,240 DEBUG   SenderThread:15368 [sender.py:send():336] send: stats
+2023-03-19 11:00:28,126 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:00:28,298 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 11:00:28,298 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 11:00:29,844 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:00:35,736 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:00:36,251 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:00:40,783 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:00:42,345 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:00:43,314 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 11:00:43,314 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 11:00:45,861 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:00:50,462 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:00:51,243 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:00:56,252 DEBUG   SenderThread:15368 [sender.py:send():336] send: stats
+2023-03-19 11:00:56,252 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:00:56,549 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:00:58,330 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 11:00:58,330 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 11:01:01,968 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:01:04,674 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:01:07,767 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:01:12,815 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:01:13,043 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:01:13,340 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 11:01:13,340 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 11:01:17,888 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:01:18,403 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:01:18,903 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:01:23,434 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:01:26,011 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:01:26,261 DEBUG   SenderThread:15368 [sender.py:send():336] send: stats
+2023-03-19 11:01:27,026 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:01:28,354 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 11:01:28,354 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 11:01:28,933 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:01:32,099 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:01:34,130 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:01:34,787 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:01:39,969 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:01:40,219 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:01:43,365 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 11:01:43,365 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 11:01:44,974 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:01:48,354 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:01:50,136 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:01:54,440 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:01:55,252 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:01:56,268 DEBUG   SenderThread:15368 [sender.py:send():336] send: stats
+2023-03-19 11:01:58,377 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 11:01:58,377 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 11:02:00,365 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:02:02,575 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:02:05,434 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:02:08,659 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:02:10,456 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:02:13,387 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 11:02:13,387 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 11:02:15,553 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:02:16,772 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:02:20,615 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:02:22,865 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:02:25,786 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:02:26,271 DEBUG   SenderThread:15368 [sender.py:send():336] send: stats
+2023-03-19 11:02:28,396 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 11:02:28,396 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 11:02:30,989 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:02:31,098 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:02:36,145 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:02:37,079 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:02:39,111 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:02:41,283 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:02:43,409 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 11:02:43,410 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 11:02:45,199 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:02:47,168 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:02:52,754 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:02:53,316 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:02:56,285 DEBUG   SenderThread:15368 [sender.py:send():336] send: stats
+2023-03-19 11:02:58,175 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:02:58,441 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 11:02:58,441 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 11:03:01,437 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:03:03,218 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:03:07,533 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:03:09,017 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:03:13,196 DEBUG   SenderThread:15368 [sender.py:send():336] send: telemetry
+2023-03-19 11:03:13,199 DEBUG   SenderThread:15368 [sender.py:send():336] send: exit
+2023-03-19 11:03:13,201 INFO    SenderThread:15368 [sender.py:send_exit():559] handling exit code: 1
+2023-03-19 11:03:13,202 INFO    SenderThread:15368 [sender.py:send_exit():561] handling runtime: 737
+2023-03-19 11:03:13,208 INFO    SenderThread:15368 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-19 11:03:13,211 INFO    SenderThread:15368 [sender.py:send_exit():567] send defer
+2023-03-19 11:03:13,211 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 11:03:13,212 INFO    HandlerThread:15368 [handler.py:handle_request_defer():170] handle defer: 0
+2023-03-19 11:03:13,212 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: defer
+2023-03-19 11:03:13,212 INFO    SenderThread:15368 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-03-19 11:03:13,213 INFO    SenderThread:15368 [sender.py:transition_state():587] send defer: 1
+2023-03-19 11:03:13,214 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 11:03:13,214 INFO    HandlerThread:15368 [handler.py:handle_request_defer():170] handle defer: 1
+2023-03-19 11:03:13,215 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: defer
+2023-03-19 11:03:13,217 INFO    SenderThread:15368 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-03-19 11:03:13,218 INFO    SenderThread:15368 [sender.py:transition_state():587] send defer: 2
+2023-03-19 11:03:13,218 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 11:03:13,218 INFO    HandlerThread:15368 [handler.py:handle_request_defer():170] handle defer: 2
+2023-03-19 11:03:13,218 INFO    HandlerThread:15368 [system_monitor.py:finish():193] Stopping system monitor
+2023-03-19 11:03:13,221 DEBUG   SystemMonitor:15368 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2023-03-19 11:03:13,221 INFO    HandlerThread:15368 [interfaces.py:finish():199] Joined cpu monitor
+2023-03-19 11:03:13,221 DEBUG   SystemMonitor:15368 [system_monitor.py:_start():172] Publishing last batch of metrics
+2023-03-19 11:03:13,221 INFO    HandlerThread:15368 [interfaces.py:finish():199] Joined disk monitor
+2023-03-19 11:03:13,222 INFO    HandlerThread:15368 [interfaces.py:finish():199] Joined memory monitor
+2023-03-19 11:03:13,222 INFO    HandlerThread:15368 [interfaces.py:finish():199] Joined network monitor
+2023-03-19 11:03:13,223 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: defer
+2023-03-19 11:03:13,223 INFO    SenderThread:15368 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-03-19 11:03:13,224 INFO    SenderThread:15368 [sender.py:transition_state():587] send defer: 3
+2023-03-19 11:03:13,224 DEBUG   SenderThread:15368 [sender.py:send():336] send: stats
+2023-03-19 11:03:13,224 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 11:03:13,225 INFO    HandlerThread:15368 [handler.py:handle_request_defer():170] handle defer: 3
+2023-03-19 11:03:13,226 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: defer
+2023-03-19 11:03:13,226 INFO    SenderThread:15368 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-03-19 11:03:13,226 INFO    SenderThread:15368 [sender.py:transition_state():587] send defer: 4
+2023-03-19 11:03:13,227 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 11:03:13,227 INFO    HandlerThread:15368 [handler.py:handle_request_defer():170] handle defer: 4
+2023-03-19 11:03:13,227 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: defer
+2023-03-19 11:03:13,227 INFO    SenderThread:15368 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-03-19 11:03:13,228 INFO    SenderThread:15368 [sender.py:transition_state():587] send defer: 5
+2023-03-19 11:03:13,229 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 11:03:13,229 INFO    HandlerThread:15368 [handler.py:handle_request_defer():170] handle defer: 5
+2023-03-19 11:03:13,229 DEBUG   SenderThread:15368 [sender.py:send():336] send: summary
+2023-03-19 11:03:13,238 INFO    SenderThread:15368 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-19 11:03:13,240 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: defer
+2023-03-19 11:03:13,240 INFO    SenderThread:15368 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-03-19 11:03:13,241 INFO    SenderThread:15368 [sender.py:transition_state():587] send defer: 6
+2023-03-19 11:03:13,241 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 11:03:13,242 INFO    HandlerThread:15368 [handler.py:handle_request_defer():170] handle defer: 6
+2023-03-19 11:03:13,242 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: defer
+2023-03-19 11:03:13,243 INFO    SenderThread:15368 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-03-19 11:03:13,248 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:03:13,633 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\wandb-summary.json
+2023-03-19 11:03:13,759 INFO    SenderThread:15368 [sender.py:transition_state():587] send defer: 7
+2023-03-19 11:03:13,759 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 11:03:13,759 INFO    HandlerThread:15368 [handler.py:handle_request_defer():170] handle defer: 7
+2023-03-19 11:03:13,759 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: defer
+2023-03-19 11:03:13,759 INFO    SenderThread:15368 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-03-19 11:03:14,207 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 11:03:14,647 INFO    Thread-17 :15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\config.yaml
+2023-03-19 11:03:14,838 INFO    SenderThread:15368 [sender.py:transition_state():587] send defer: 8
+2023-03-19 11:03:14,838 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 11:03:14,838 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 11:03:14,838 INFO    HandlerThread:15368 [handler.py:handle_request_defer():170] handle defer: 8
+2023-03-19 11:03:14,838 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: defer
+2023-03-19 11:03:14,838 INFO    SenderThread:15368 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-03-19 11:03:14,838 INFO    SenderThread:15368 [sender.py:transition_state():587] send defer: 9
+2023-03-19 11:03:14,838 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 11:03:14,838 INFO    HandlerThread:15368 [handler.py:handle_request_defer():170] handle defer: 9
+2023-03-19 11:03:14,838 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: defer
+2023-03-19 11:03:14,838 INFO    SenderThread:15368 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-03-19 11:03:14,838 INFO    SenderThread:15368 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-03-19 11:03:15,216 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 11:03:15,674 INFO    SenderThread:15368 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:03:15,679 INFO    SenderThread:15368 [dir_watcher.py:finish():395] scan: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files
+2023-03-19 11:03:15,680 INFO    SenderThread:15368 [dir_watcher.py:finish():409] scan save: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\config.yaml config.yaml
+2023-03-19 11:03:15,681 INFO    SenderThread:15368 [dir_watcher.py:finish():409] scan save: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\wandb-summary.json wandb-summary.json
+2023-03-19 11:03:15,681 INFO    SenderThread:15368 [dir_watcher.py:finish():409] scan save: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\requirements.txt requirements.txt
+2023-03-19 11:03:15,681 INFO    SenderThread:15368 [dir_watcher.py:finish():409] scan save: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\conda-environment.yaml conda-environment.yaml
+2023-03-19 11:03:15,681 INFO    SenderThread:15368 [dir_watcher.py:finish():409] scan save: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\wandb-metadata.json wandb-metadata.json
+2023-03-19 11:03:15,681 INFO    SenderThread:15368 [dir_watcher.py:finish():409] scan save: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log output.log
+2023-03-19 11:03:15,681 INFO    SenderThread:15368 [sender.py:transition_state():587] send defer: 10
+2023-03-19 11:03:15,681 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 11:03:15,681 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 11:03:15,697 INFO    HandlerThread:15368 [handler.py:handle_request_defer():170] handle defer: 10
+2023-03-19 11:03:15,697 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: defer
+2023-03-19 11:03:15,697 INFO    SenderThread:15368 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-03-19 11:03:15,697 INFO    SenderThread:15368 [file_pusher.py:finish():164] shutting down file pusher
+2023-03-19 11:03:16,228 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 11:03:16,228 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 11:03:17,143 INFO    wandb-upload_1:15368 [upload_job.py:push():138] Uploaded file G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\wandb-summary.json
+2023-03-19 11:03:17,143 INFO    wandb-upload_2:15368 [upload_job.py:push():138] Uploaded file G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\requirements.txt
+2023-03-19 11:03:17,190 INFO    wandb-upload_3:15368 [upload_job.py:push():138] Uploaded file G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\output.log
+2023-03-19 11:03:17,237 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 11:03:17,237 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 11:03:18,245 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 11:03:18,245 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 11:03:19,253 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 11:03:19,253 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 11:03:20,254 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 11:03:20,254 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 11:03:20,259 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:03:21,265 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 11:03:21,266 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 11:03:22,277 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 11:03:22,279 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 11:03:23,286 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 11:03:23,287 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 11:03:24,290 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 11:03:24,292 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 11:03:25,304 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:03:25,305 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 11:03:25,306 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 11:03:26,308 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 11:03:26,308 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 11:03:27,321 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 11:03:27,321 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 11:03:28,325 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 11:03:28,325 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 11:03:29,328 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 11:03:29,328 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 11:03:30,337 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:03:30,337 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 11:03:30,337 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 11:03:31,340 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 11:03:31,340 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 11:03:32,355 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 11:03:32,355 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 11:03:33,371 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 11:03:33,371 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 11:03:34,387 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 11:03:34,387 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 11:03:35,389 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 11:03:35,389 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 11:03:35,392 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 11:03:35,452 ERROR   wandb-upload_0:15368 [internal_api.py:upload_file():2073] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/arunm917/CS6910_Assignment1/hxft0ag8/config.yaml?Expires=1679290395&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=rg%2FdU0xCOf24Ng4lDkFCWhOpL4nRDUusQSENUh1SnZdaRSb9SfEZ5gSe3Vp%2FzHnuAdkr1Ua7Nji1qgIO1dUl11hAeXUXb1FeXYjxxrFmSupX1oBsGO9JU8%2FPx1NgZrbznqPHf6W4pb1uLPmag%2FXLVrMsHUIqfFlSbBJB7wFXip0X4AS2KY4fBEl8E0Lh3Z%2BKnG5Zt7tFC4P4OY7ZPFdgutbKGCZ2LqEVbs5Y5B8ec572tarjZoKbc1IyuyzPzv0%2FaquyxHrFdAnHvY8OeGOjsisXctJo0cOfBpM7hUJGI%2F%2FzgveL%2BB94WypFRIj8%2FHA5sKRhh9w%2BDycMCOS7pJTueg%3D%3D: ('Connection aborted.', TimeoutError(10060, 'A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond', None, 10060, None))
+2023-03-19 11:03:35,454 ERROR   wandb-upload_0:15368 [internal_api.py:upload_file():2075] upload_file request headers: {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '854'}
+2023-03-19 11:03:35,455 ERROR   wandb-upload_0:15368 [internal_api.py:upload_file():2077] upload_file response body: 
+2023-03-19 11:03:36,405 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 11:03:36,405 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 11:03:37,406 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 11:03:37,406 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 11:03:37,561 INFO    wandb-upload_0:15368 [upload_job.py:push():138] Uploaded file G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\files\config.yaml
+2023-03-19 11:03:37,784 INFO    Thread-16 :15368 [sender.py:transition_state():587] send defer: 11
+2023-03-19 11:03:37,784 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 11:03:37,784 INFO    HandlerThread:15368 [handler.py:handle_request_defer():170] handle defer: 11
+2023-03-19 11:03:37,784 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: defer
+2023-03-19 11:03:37,784 INFO    SenderThread:15368 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-03-19 11:03:37,784 INFO    SenderThread:15368 [file_pusher.py:join():169] waiting for file pusher
+2023-03-19 11:03:37,784 INFO    SenderThread:15368 [sender.py:transition_state():587] send defer: 12
+2023-03-19 11:03:37,784 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 11:03:37,784 INFO    HandlerThread:15368 [handler.py:handle_request_defer():170] handle defer: 12
+2023-03-19 11:03:37,784 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: defer
+2023-03-19 11:03:37,784 INFO    SenderThread:15368 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-03-19 11:03:38,409 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 11:03:38,985 INFO    SenderThread:15368 [sender.py:transition_state():587] send defer: 13
+2023-03-19 11:03:38,985 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 11:03:38,985 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 11:03:38,985 INFO    HandlerThread:15368 [handler.py:handle_request_defer():170] handle defer: 13
+2023-03-19 11:03:38,985 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: defer
+2023-03-19 11:03:38,985 INFO    SenderThread:15368 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-03-19 11:03:38,985 INFO    SenderThread:15368 [sender.py:transition_state():587] send defer: 14
+2023-03-19 11:03:38,985 DEBUG   SenderThread:15368 [sender.py:send():336] send: final
+2023-03-19 11:03:38,985 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: defer
+2023-03-19 11:03:38,985 DEBUG   SenderThread:15368 [sender.py:send():336] send: footer
+2023-03-19 11:03:38,985 INFO    HandlerThread:15368 [handler.py:handle_request_defer():170] handle defer: 14
+2023-03-19 11:03:38,985 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: defer
+2023-03-19 11:03:38,985 INFO    SenderThread:15368 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-03-19 11:03:39,000 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-19 11:03:39,002 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: server_info
+2023-03-19 11:03:39,002 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: poll_exit
+2023-03-19 11:03:39,002 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: get_summary
+2023-03-19 11:03:39,003 DEBUG   SenderThread:15368 [sender.py:send_request():363] send_request: server_info
+2023-03-19 11:03:39,003 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: sampled_history
+2023-03-19 11:03:40,004 DEBUG   HandlerThread:15368 [handler.py:handle_request():144] handle_request: shutdown
+2023-03-19 11:03:40,004 INFO    HandlerThread:15368 [handler.py:finish():842] shutting down handler
+2023-03-19 11:03:41,020 INFO    SenderThread:15368 [sender.py:finish():1504] shutting down sender
+2023-03-19 11:03:41,020 INFO    WriterThread:15368 [datastore.py:close():298] close: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_105054-hxft0ag8\run-hxft0ag8.wandb
+2023-03-19 11:03:41,020 INFO    SenderThread:15368 [file_pusher.py:finish():164] shutting down file pusher
+2023-03-19 11:03:41,020 INFO    SenderThread:15368 [file_pusher.py:join():169] waiting for file pusher

@@ -1,0 +1,330 @@
+[784, 1, 10]
+ training loss =  1.15
+validation loss =  1.1513
+validation accuracy =  0.09
+ training loss =  1.1487
+validation loss =  1.1513
+validation accuracy =  0.1
+ training loss =  1.1397
+validation loss =  1.1509
+validation accuracy =  0.1
+  3%|█████▎                                                                                                                                                                             | 3/100 [00:01<00:53,  1.80epoch/s]
+ training loss =  1.1333
+validation loss =  1.1509
+validation accuracy =  0.1
+ training loss =  1.1323
+validation loss =  1.1509
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+  5%|████████▉                                                                                                                                                                          | 5/100 [00:02<00:48,  1.97epoch/s]g:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\ActivationFunctions.py:15: RuntimeWarning: overflow encountered in exp
+  return np.exp(z-m)/np.sum(np.exp(z-m))
+g:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\ActivationFunctions.py:15: RuntimeWarning: invalid value encountered in true_divide
+  return np.exp(z-m)/np.sum(np.exp(z-m))
+
+ 12%|█████████████████████▎                                                                                                                                                            | 12/100 [00:05<00:40,  2.15epoch/s]
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+
+
+ 20%|███████████████████████████████████▌                                                                                                                                              | 20/100 [00:10<00:40,  1.98epoch/s]
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+
+ 23%|████████████████████████████████████████▉                                                                                                                                         | 23/100 [00:11<00:46,  1.65epoch/s]
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+
+
+ 32%|████████████████████████████████████████████████████████▉                                                                                                                         | 32/100 [00:16<00:32,  2.11epoch/s]
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+
+ 36%|████████████████████████████████████████████████████████████████                                                                                                                  | 36/100 [00:18<00:30,  2.12epoch/s]
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+
+ 40%|███████████████████████████████████████████████████████████████████████▏                                                                                                          | 40/100 [00:20<00:29,  2.03epoch/s]
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+
+
+ 49%|███████████████████████████████████████████████████████████████████████████████████████▏                                                                                          | 49/100 [00:24<00:25,  2.03epoch/s]
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+
+ 53%|██████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                   | 53/100 [00:26<00:22,  2.07epoch/s]
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+
+
+ 64%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                                | 64/100 [00:31<00:17,  2.05epoch/s]
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+
+ 68%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                                         | 68/100 [00:33<00:16,  1.97epoch/s]
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+
+ 72%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                 | 72/100 [00:36<00:15,  1.85epoch/s]
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+
+ 75%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                            | 75/100 [00:37<00:13,  1.80epoch/s]
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+
+ 79%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                     | 79/100 [00:40<00:11,  1.79epoch/s]
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+
+ 83%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                              | 83/100 [00:42<00:09,  1.87epoch/s]
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+
+ 87%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                       | 87/100 [00:44<00:07,  1.78epoch/s]
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+
+ 90%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                 | 90/100 [00:46<00:05,  1.81epoch/s]
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+
+
+ 98%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍   | 98/100 [00:50<00:01,  1.88epoch/s]
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:51<00:00,  1.94epoch/s]

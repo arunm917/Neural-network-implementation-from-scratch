@@ -1,0 +1,14 @@
+
+[784, 128, 128, 10]
+  0%|                                                                                                                                                                                            | 0/20 [00:00<?, ?epoch/s]
+ training loss =  0.8994
+validation loss =  1.0808
+
+
+ 10%|██████████████████                                                                                                                                                                  | 2/20 [00:13<01:58,  6.58s/epoch]
+ training loss =  0.8488
+validation loss =  1.0748
+validation accuracy =  0.46
+ training loss =  0.7107
+validation loss =  1.0355
+

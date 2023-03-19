@@ -1,0 +1,54 @@
+[784, 32, 10]
+HE
+  0%|                                                                                                                                                                                            | 0/50 [00:00<?, ?epoch/s]
+ training loss =  0.4725
+validation loss =  1.0856
+
+
+  4%|███████▏                                                                                                                                                                            | 2/50 [00:09<03:36,  4.51s/epoch]
+ training loss =  0.5769
+validation loss =  1.0945
+
+  6%|██████████▊                                                                                                                                                                         | 3/50 [00:13<03:23,  4.33s/epoch]
+ training loss =  0.6313
+validation loss =  1.0899
+
+  8%|██████████████▍                                                                                                                                                                     | 4/50 [00:17<03:14,  4.23s/epoch]
+ training loss =  0.6489
+validation loss =  1.0836
+
+ 10%|██████████████████                                                                                                                                                                  | 5/50 [00:21<03:08,  4.19s/epoch]
+ training loss =  0.6526
+validation loss =  1.0778
+
+ 12%|█████████████████████▌                                                                                                                                                              | 6/50 [00:25<03:03,  4.18s/epoch]
+ training loss =  0.6512
+validation loss =  1.0749
+
+ 14%|█████████████████████████▏                                                                                                                                                          | 7/50 [00:29<03:01,  4.23s/epoch]
+ training loss =  0.6485
+validation loss =  1.0754
+
+ 16%|████████████████████████████▊                                                                                                                                                       | 8/50 [00:34<02:58,  4.26s/epoch]
+ training loss =  0.6462
+validation loss =  1.0791
+
+ 18%|████████████████████████████████▍                                                                                                                                                   | 9/50 [00:38<02:57,  4.33s/epoch]
+ training loss =  0.6409
+validation loss =  1.084
+
+ 20%|███████████████████████████████████▊                                                                                                                                               | 10/50 [00:42<02:52,  4.31s/epoch]
+ training loss =  0.63
+validation loss =  1.0884
+
+ 22%|███████████████████████████████████████▍                                                                                                                                           | 11/50 [00:47<02:47,  4.29s/epoch]
+ training loss =  0.6185
+validation loss =  1.0897
+
+ 24%|██████████████████████████████████████████▉                                                                                                                                        | 12/50 [00:51<02:43,  4.30s/epoch]
+ training loss =  0.6109
+validation loss =  1.0902
+validation accuracy =  0.42
+ training loss =  0.6064
+validation loss =  1.0904
+

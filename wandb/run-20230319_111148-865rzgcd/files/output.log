@@ -1,0 +1,66 @@
+
+  0%|                                                                                                                                                                                            | 0/50 [00:00<?, ?epoch/s]
+[784, 32, 10]
+
+  4%|███████▏                                                                                                                                                                            | 2/50 [00:03<01:32,  1.92s/epoch]
+ training loss =  0.5817
+validation loss =  1.0564
+validation accuracy =  0.1
+ training loss =  0.5216
+validation loss =  1.0568
+
+  6%|██████████▊                                                                                                                                                                         | 3/50 [00:05<01:30,  1.93s/epoch]
+ training loss =  0.5179
+validation loss =  1.0566
+validation accuracy =  0.1
+ training loss =  0.5169
+validation loss =  1.0565
+
+
+ 10%|██████████████████                                                                                                                                                                  | 5/50 [00:09<01:29,  1.98s/epoch]
+ training loss =  0.5161
+validation loss =  1.0565
+validation accuracy =  0.1
+ training loss =  0.5157
+validation loss =  1.0564
+
+ 12%|█████████████████████▌                                                                                                                                                              | 6/50 [00:11<01:27,  1.98s/epoch]C:\Users\arunk\anaconda3\lib\site-packages\numpy\core\fromnumeric.py:87: RuntimeWarning: overflow encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+g:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\ActivationFunctions.py:15: RuntimeWarning: overflow encountered in exp
+  return np.exp(z-m)/np.sum(np.exp(z-m))
+g:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\ActivationFunctions.py:15: RuntimeWarning: invalid value encountered in true_divide
+  return np.exp(z-m)/np.sum(np.exp(z-m))
+ 14%|█████████████████████████▏                                                                                                                                                          | 7/50 [00:13<01:23,  1.94s/epoch]
+ training loss =  nan
+validation loss =  nan
+
+ 16%|████████████████████████████▊                                                                                                                                                       | 8/50 [00:15<01:18,  1.88s/epoch]
+ training loss =  nan
+validation loss =  nan
+
+ 18%|████████████████████████████████▍                                                                                                                                                   | 9/50 [00:17<01:15,  1.83s/epoch]
+ training loss =  nan
+validation loss =  nan
+
+ 20%|███████████████████████████████████▊                                                                                                                                               | 10/50 [00:18<01:12,  1.82s/epoch]
+ training loss =  nan
+validation loss =  nan
+
+ 22%|███████████████████████████████████████▍                                                                                                                                           | 11/50 [00:21<01:13,  1.89s/epoch]
+ training loss =  nan
+validation loss =  nan
+
+ 24%|██████████████████████████████████████████▉                                                                                                                                        | 12/50 [00:22<01:09,  1.83s/epoch]
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+validation accuracy =  0.1
+ training loss =  nan
+validation loss =  nan
+
+ 28%|██████████████████████████████████████████████████                                                                                                                                 | 14/50 [00:26<01:04,  1.80s/epoch]
+ training loss =  nan
+validation loss =  nan
+

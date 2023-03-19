@@ -5,6 +5,7 @@ from tqdm import tqdm
 import ActivationFunctions
 import LossFunctions
 import ParameterInitialization
+import wandb
 
 initial = ParameterInitialization.ParameterInitialization()
 act = ActivationFunctions.ActivationFunctions()
@@ -53,12 +54,16 @@ class Model:
 
         if self.optimizer == "SGD":  # Stochastic gradient descent
             for i in range(self.nh + 1):
-                self.W[i + 1] -= self.learning_rate * (self.dW[i + 1])
+                self.W[i + 1] -= self.learning_rate * (
+                    self.dW[i + 1] + self.weight_decay * (self.W[i + 1])
+                )
                 self.B[i + 1] -= self.learning_rate * (self.dB[i + 1])
 
         if self.optimizer == "MBGD":  # Mini-batch gradient descent
             for i in range(self.nh + 1):
-                self.W[i + 1] -= self.learning_rate * (self.dW[i + 1] / self.batch_size)
+                self.W[i + 1] -= self.learning_rate * (
+                    self.dW[i + 1] / self.batch_size
+                ) - self.learning_rate * self.weight_decay * (self.W[i + 1])
                 self.B[i + 1] -= self.learning_rate * (self.dB[i + 1] / self.batch_size)
 
         if self.optimizer == "MGD":  # Momentum-based gradient descent
@@ -66,7 +71,8 @@ class Model:
             for i in range(self.nh + 1):
                 # Updating history term
                 self.v_w[i + 1] = beta * self.v_w[i + 1] + self.learning_rate * (
-                    self.dW[i + 1] / self.batch_size
+                    (self.dW[i + 1] / self.batch_size)
+                    + self.weight_decay * (self.W[i + 1])
                 )
                 self.v_b[i + 1] = beta * self.v_b[i + 1] + self.learning_rate * (
                     self.dB[i + 1] / self.batch_size
@@ -90,7 +96,7 @@ class Model:
             for i in range(self.nh + 1):
                 # Updating history term
                 self.v_w[i + 1] = beta * self.v_w[i + 1] + self.learning_rate * (
-                    dW[i + 1] / self.batch_size
+                    (dW[i + 1] / self.batch_size) + self.weight_decay * (self.W[i + 1])
                 )
                 self.v_b[i + 1] = beta * self.v_b[i + 1] + self.learning_rate * (
                     dB[i + 1] / self.batch_size
@@ -103,9 +109,14 @@ class Model:
             beta = 0.9
             eps = 1e-8
             for i in range(self.nh + 1):
+
                 # Updating history term
                 self.v_w[i + 1] = beta * self.v_w[i + 1] + (1 - beta) * (
-                    (self.dW[i + 1] / self.batch_size) ** 2
+                    (
+                        (self.dW[i + 1] / self.batch_size)
+                        + self.weight_decay * (self.W[i + 1])
+                    )
+                    ** 2
                 )
                 self.v_b[i + 1] = beta * self.v_b[i + 1] + (1 - beta) * (
                     (self.dB[i + 1] / self.batch_size) ** 2
@@ -113,7 +124,11 @@ class Model:
                 # Updating weights and biases
                 self.W[i + 1] -= (
                     self.learning_rate / np.sqrt(self.v_w[i + 1] + eps)
-                ) * (self.dW[i + 1] / self.batch_size)
+                ) * (
+                    (self.dW[i + 1] / self.batch_size)
+                    + self.weight_decay * (self.W[i + 1])
+                )
+
                 self.B[i + 1] -= (
                     self.learning_rate / np.sqrt(self.v_b[i + 1] + eps)
                 ) * (self.dB[i + 1] / self.batch_size)
@@ -126,7 +141,8 @@ class Model:
 
                 # Updating history term
                 self.m_w[i + 1] = beta1 * self.m_w[i + 1] + (1 - beta1) * (
-                    self.dW[i + 1] / self.batch_size
+                    (self.dW[i + 1] / self.batch_size)
+                    + self.weight_decay * (self.W[i + 1])
                 )
                 self.m_b[i + 1] = beta1 * self.m_b[i + 1] + (1 - beta1) * (
                     self.dB[i + 1] / self.batch_size
@@ -136,7 +152,11 @@ class Model:
                 m_b_hat = self.m_b[i + 1] / (1 - np.power(beta1, self.step))
 
                 self.v_w[i + 1] = beta2 * self.v_w[i + 1] + (1 - beta2) * (
-                    (self.dW[i + 1] / self.batch_size) ** 2
+                    (
+                        (self.dW[i + 1] / self.batch_size)
+                        + self.weight_decay * (self.W[i + 1])
+                    )
+                    ** 2
                 )
                 self.v_b[i + 1] = beta2 * self.v_b[i + 1] + (1 - beta2) * (
                     (self.dB[i + 1] / self.batch_size) ** 2
@@ -161,7 +181,8 @@ class Model:
 
                 # Updating history term
                 self.m_w[i + 1] = beta1 * self.m_w[i + 1] + (1 - beta1) * (
-                    self.dW[i + 1] / self.batch_size
+                    (self.dW[i + 1] / self.batch_size)
+                    + self.weight_decay * (self.W[i + 1])
                 )
                 self.m_b[i + 1] = beta1 * self.m_b[i + 1] + (1 - beta1) * (
                     self.dB[i + 1] / self.batch_size
@@ -171,7 +192,11 @@ class Model:
                 m_b_hat = self.m_b[i + 1] / (1 - np.power(beta1, self.step))
 
                 self.v_w[i + 1] = beta2 * self.v_w[i + 1] + (1 - beta2) * (
-                    (self.dW[i + 1] / self.batch_size) ** 2
+                    (
+                        (self.dW[i + 1] / self.batch_size)
+                        + self.weight_decay * (self.W[i + 1])
+                    )
+                    ** 2
                 )
                 self.v_b[i + 1] = beta2 * self.v_b[i + 1] + (1 - beta2) * (
                     (self.dB[i + 1] / self.batch_size) ** 2
@@ -184,7 +209,10 @@ class Model:
                 self.W[i + 1] -= (self.learning_rate / (np.sqrt(v_w_hat) + eps)) * (
                     m_w_hat * beta1
                     + (
-                        ((1 - beta1) * self.dW[i + 1])
+                        (
+                            (1 - beta1)
+                            * (self.dW[i + 1] + self.weight_decay * (self.W[i + 1]))
+                        )
                         / (1 - np.power(beta1, self.step))
                     )
                 )
@@ -197,12 +225,21 @@ class Model:
                 )
         return (self.W, self.B)
 
+    def accuracy(self, Y, Y_pred):
+        correct_predictions = 0
+        samples = len(Y)
+        Y = Y.reshape(1, -1)
+        Y_pred = Y_pred.reshape(1, -1)
+        correct_predictions = np.sum(Y == Y_pred)
+        return float(correct_predictions / samples)
+
     def fit(
         self,
         X,
         Y,
         X_val,
         Y_val,
+        Y_val_enc,
         epochs,
         learning_rate,
         weight_decay,
@@ -224,8 +261,9 @@ class Model:
         self.neurons = neurons_per_layer
         self.initialization_alg = initialization_alg
         self.optimizer = optimizer
-        self.batch_size = batch_size
         self.learning_rate = learning_rate
+        self.weight_decay = weight_decay
+        self.batch_size = batch_size
         self.activation_function = activation_function
         # self.weight_decay = weight_decay
         hidden_layer_sizes = [self.neurons] * self.nh
@@ -234,7 +272,7 @@ class Model:
         if self.optimizer == "SGD":
             self.batch_size = 1
 
-        step_size = len(X) / batch_size
+        step_size = len(X) / self.batch_size
 
         self.W, self.B = initial.initialize(self.sizes, self.initialization_alg)
         self.v_w = {}
@@ -256,11 +294,12 @@ class Model:
             loss_epoch = 0
             self.loss_batch_store = []
 
-            for i in range(0, len(X), batch_size):
+            for i in range(0, len(X), self.batch_size):
                 self.step += 1
+                loss_batch = 0
                 # print('step = ', step)
-                self.x = X[i : i + batch_size, :]
-                self.y = Y[i : i + batch_size, :]
+                self.x = X[i : i + self.batch_size, :]
+                self.y = Y[i : i + self.batch_size, :]
                 # print('x =', self.x.shape)
                 # print('y =', self.y.shape)
                 (self.dW, self.dB) = self.grad(
@@ -269,25 +308,37 @@ class Model:
                 self.W, self.B = self.learning_algoithms()
 
                 # Predicting loss for each batch
-                # loss_batch = loss_functions.cross_entropy(self.y.T ,self.y_pred)
-                # self.loss_batch_store.append(loss_batch)
-            loss_epoch = loss_functions.cross_entropy(self.y.T, self.y_pred)
-            print("training loss = ", round(loss_epoch, 4))
+                loss_batch = loss_functions.cross_entropy(self.y.T, self.y_pred)
+                self.loss_batch_store.append(loss_batch)
+            # train_loss = loss_functions.cross_entropy(self.y.T, self.y_pred)
+            loss_epoch = round(np.mean(self.loss_batch_store), 4)
+            print(" training loss = ", loss_epoch)
             self.loss_epoc_store.append(loss_epoch)
 
             # Predicting validation loss
-            y_pred_val = self.forward_prop(X_val, activation_function)
+            y_pred_val = self.forward_prop(X_val, self.activation_function)
+            # print("Y_val", Y_val.shape, "y_pred_val", y_pred_val.shape)
+            val_loss = round(loss_functions.cross_entropy(Y_val_enc.T, y_pred_val), 4)
+
+            print("validation loss = ", val_loss)
             Y_pred_val = np.array(y_pred_val.T).squeeze()
             Y_pred_val = np.argmax(Y_pred_val, 1)
-            # print(Y_pred_val[0:10], Y_val[0:10])
-            accuracy_val = accuracy_score(Y_pred_val, Y_val)
-            print("validation accuracy = ", round(accuracy_val, 2))
-            # wandb.log({'loss_epoch': loss_epoch, 'accuracy_val':accuracy_val, 'epochs':epoch})
+            # print(Y_pred_val.shape, Y_val.shape)
+            accuracy_val = round(self.accuracy(Y_val, Y_pred_val), 2)
+            print("validation accuracy = ", accuracy_val)
+            wandb.log(
+                {
+                    "loss_train": loss_epoch,
+                    "loss_val": val_loss,
+                    "accuracy_val": accuracy_val,
+                    "epochs": epoch,
+                }
+            )
 
-        plt.plot(self.loss_epoc_store)
-        plt.xlabel("Epochs")
-        plt.ylabel("log_loss")
-        plt.show()
+        # plt.plot(self.loss_epoc_store)
+        # plt.xlabel("Epochs")
+        # plt.ylabel("log_loss")
+        # plt.show()
         return (accuracy_val, loss_epoch)
 
 
