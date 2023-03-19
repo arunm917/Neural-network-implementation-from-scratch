@@ -1,0 +1,85 @@
+
+[784, 64, 10]
+
+  5%|██▏                                        | 1/20 [00:07<02:17,  7.25s/epoch]
+ training loss =  0.6215
+validation loss =  1.06
+validation accuracy =  0.5
+ training loss =  0.57
+validation loss =  1.0438
+
+ 10%|████▎                                      | 2/20 [00:16<02:30,  8.37s/epoch]
+ training loss =  0.5432
+validation loss =  1.0357
+
+ 15%|██████▍                                    | 3/20 [00:24<02:23,  8.43s/epoch]
+ training loss =  0.5265
+validation loss =  1.0302
+
+ 20%|████████▌                                  | 4/20 [00:34<02:21,  8.87s/epoch]
+ training loss =  0.5153
+validation loss =  1.0255
+
+ 25%|██████████▊                                | 5/20 [00:47<02:35, 10.39s/epoch]
+ training loss =  0.5058
+validation loss =  1.0211
+
+ 30%|████████████▉                              | 6/20 [01:00<02:37, 11.28s/epoch]
+ training loss =  0.5003
+validation loss =  1.0165
+
+ 35%|███████████████                            | 7/20 [01:12<02:31, 11.65s/epoch]
+ training loss =  0.498
+validation loss =  1.0121
+
+ 40%|█████████████████▏                         | 8/20 [01:24<02:21, 11.76s/epoch]
+ training loss =  0.4956
+validation loss =  1.0077
+
+
+ 50%|█████████████████████                     | 10/20 [01:51<02:06, 12.62s/epoch]
+ training loss =  0.4932
+validation loss =  1.0038
+validation accuracy =  0.77
+ training loss =  0.4912
+validation loss =  1.0003
+
+ 55%|███████████████████████                   | 11/20 [02:03<01:52, 12.46s/epoch]
+ training loss =  0.4889
+validation loss =  0.9972
+
+ 60%|█████████████████████████▏                | 12/20 [02:16<01:41, 12.67s/epoch]
+ training loss =  0.4869
+validation loss =  0.9944
+
+
+ 70%|█████████████████████████████▍            | 14/20 [02:47<01:24, 14.07s/epoch]
+ training loss =  0.4851
+validation loss =  0.9919
+validation accuracy =  0.78
+ training loss =  0.4832
+validation loss =  0.9897
+
+
+ 80%|█████████████████████████████████▌        | 16/20 [03:13<00:53, 13.42s/epoch]
+ training loss =  0.4819
+validation loss =  0.9878
+
+ 85%|███████████████████████████████████▋      | 17/20 [03:26<00:40, 13.36s/epoch]
+ training loss =  0.481
+validation loss =  0.9861
+
+ 90%|█████████████████████████████████████▊    | 18/20 [03:39<00:26, 13.23s/epoch]
+ training loss =  0.4802
+validation loss =  0.9847
+validation accuracy =  0.78
+ training loss =  0.4797
+validation loss =  0.9835
+
+100%|██████████████████████████████████████████| 20/20 [04:04<00:00, 12.24s/epoch]
+C:\Users\arunk\anaconda3\lib\site-packages\seaborn\matrix.py:550: UserWarning: Starting a Matplotlib GUI outside of the main thread will likely fail.
+  ax = plt.gca()
+ training loss =  0.4795
+validation loss =  0.9824
+validation accuracy =  0.78
+Test accuracy =  0.79

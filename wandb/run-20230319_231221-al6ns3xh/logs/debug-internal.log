@@ -1,0 +1,92 @@
+2023-03-19 23:12:21,575 INFO    StreamThr :10792 [internal.py:wandb_internal():87] W&B internal server running at pid: 10792, started at: 2023-03-19 23:12:21.570147
+2023-03-19 23:12:21,577 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: status
+2023-03-19 23:12:21,596 INFO    WriterThread:10792 [datastore.py:open_for_write():85] open: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_231221-al6ns3xh\run-al6ns3xh.wandb
+2023-03-19 23:12:21,612 DEBUG   SenderThread:10792 [sender.py:send():336] send: header
+2023-03-19 23:12:21,690 DEBUG   SenderThread:10792 [sender.py:send():336] send: run
+2023-03-19 23:12:22,851 INFO    SenderThread:10792 [dir_watcher.py:__init__():219] watching files in: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_231221-al6ns3xh\files
+2023-03-19 23:12:22,853 INFO    SenderThread:10792 [sender.py:_start_run_threads():1078] run started: al6ns3xh with start time 1679247741.591551
+2023-03-19 23:12:22,854 DEBUG   SenderThread:10792 [sender.py:send_request():363] send_request: summary_record
+2023-03-19 23:12:22,858 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: check_version
+2023-03-19 23:12:22,862 INFO    SenderThread:10792 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-19 23:12:22,865 DEBUG   SenderThread:10792 [sender.py:send_request():363] send_request: check_version
+2023-03-19 23:12:23,235 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: run_start
+2023-03-19 23:12:23,250 DEBUG   HandlerThread:10792 [system_info.py:__init__():31] System info init
+2023-03-19 23:12:23,250 DEBUG   HandlerThread:10792 [system_info.py:__init__():46] System info init done
+2023-03-19 23:12:23,250 INFO    HandlerThread:10792 [system_monitor.py:start():183] Starting system monitor
+2023-03-19 23:12:23,250 INFO    SystemMonitor:10792 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-03-19 23:12:23,250 INFO    HandlerThread:10792 [system_monitor.py:probe():204] Collecting system info
+2023-03-19 23:12:23,250 INFO    SystemMonitor:10792 [interfaces.py:start():187] Started cpu monitoring
+2023-03-19 23:12:23,250 INFO    SystemMonitor:10792 [interfaces.py:start():187] Started disk monitoring
+2023-03-19 23:12:23,250 DEBUG   HandlerThread:10792 [system_info.py:probe():195] Probing system
+2023-03-19 23:12:23,250 INFO    SystemMonitor:10792 [interfaces.py:start():187] Started memory monitoring
+2023-03-19 23:12:23,266 INFO    SystemMonitor:10792 [interfaces.py:start():187] Started network monitoring
+2023-03-19 23:12:23,266 DEBUG   HandlerThread:10792 [system_info.py:_probe_git():180] Probing git
+2023-03-19 23:12:23,422 DEBUG   HandlerThread:10792 [system_info.py:_probe_git():188] Probing git done
+2023-03-19 23:12:23,422 DEBUG   HandlerThread:10792 [system_info.py:probe():240] Probing system done
+2023-03-19 23:12:23,422 DEBUG   HandlerThread:10792 [system_monitor.py:probe():213] {'os': 'Windows-10-10.0.22000-SP0', 'python': '3.9.7', 'heartbeatAt': '2023-03-19T17:42:23.250882', 'startedAt': '2023-03-19T17:42:21.482208', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'g:\\Other computers\\My Computer\\Courses\\Deep learning 2023\\CS6910_Assignment1\\train.py', 'codePath': 'train.py', 'git': {'remote': 'https://github.com/arunm917/CS6910_Assignment1.git', 'commit': '6baaf28187fae8257250a2ced90d6bbd4c312220'}, 'email': '53330301+arunm917@users.noreply.github.com', 'root': 'G:/Other computers/My Computer/Courses/Deep learning 2023/CS6910_Assignment1', 'host': 'Arun-PC', 'username': 'arunk', 'executable': 'C:\\Users\\arunk\\anaconda3\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1382.0, 'min': 0.0, 'max': 1382.0}, 'cpu_freq_per_core': [{'current': 1382.0, 'min': 0.0, 'max': 1382.0}], 'disk': {'total': 147.53222274780273, 'used': 139.29838180541992}, 'memory': {'total': 7.729286193847656}}
+2023-03-19 23:12:23,422 INFO    HandlerThread:10792 [system_monitor.py:probe():214] Finished collecting system info
+2023-03-19 23:12:23,422 INFO    HandlerThread:10792 [system_monitor.py:probe():217] Publishing system info
+2023-03-19 23:12:23,422 DEBUG   HandlerThread:10792 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-19 23:12:23,422 DEBUG   HandlerThread:10792 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-19 23:12:23,422 DEBUG   HandlerThread:10792 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-19 23:12:23,864 INFO    Thread-17 :10792 [dir_watcher.py:_on_file_created():278] file/dir created: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_231221-al6ns3xh\files\requirements.txt
+2023-03-19 23:12:23,864 INFO    Thread-17 :10792 [dir_watcher.py:_on_file_created():278] file/dir created: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_231221-al6ns3xh\files\wandb-summary.json
+2023-03-19 23:12:23,864 INFO    Thread-17 :10792 [dir_watcher.py:_on_file_created():278] file/dir created: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_231221-al6ns3xh\files\conda-environment.yaml
+2023-03-19 23:12:25,054 DEBUG   HandlerThread:10792 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-19 23:12:25,064 INFO    HandlerThread:10792 [system_monitor.py:probe():219] Finished publishing system info
+2023-03-19 23:12:25,085 DEBUG   SenderThread:10792 [sender.py:send():336] send: files
+2023-03-19 23:12:25,086 INFO    SenderThread:10792 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-03-19 23:12:25,134 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 23:12:25,136 DEBUG   SenderThread:10792 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 23:12:25,645 DEBUG   SenderThread:10792 [sender.py:send():336] send: telemetry
+2023-03-19 23:12:25,646 DEBUG   SenderThread:10792 [sender.py:send():336] send: telemetry
+2023-03-19 23:12:25,646 DEBUG   SenderThread:10792 [sender.py:send():336] send: run
+2023-03-19 23:12:25,882 INFO    Thread-17 :10792 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_231221-al6ns3xh\files\config.yaml
+2023-03-19 23:12:25,883 INFO    Thread-17 :10792 [dir_watcher.py:_on_file_created():278] file/dir created: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_231221-al6ns3xh\files\wandb-metadata.json
+2023-03-19 23:12:26,245 INFO    SenderThread:10792 [sender.py:send_run():955] updated run: al6ns3xh
+2023-03-19 23:12:26,479 INFO    wandb-upload_0:10792 [upload_job.py:push():138] Uploaded file C:\Users\arunk\AppData\Local\Temp\tmpn616mg6swandb\08lu55t5-wandb-metadata.json
+2023-03-19 23:12:26,888 INFO    Thread-17 :10792 [dir_watcher.py:_on_file_created():278] file/dir created: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_231221-al6ns3xh\files\output.log
+2023-03-19 23:12:27,266 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 23:12:32,305 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 23:12:37,353 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 23:12:40,142 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 23:12:40,142 DEBUG   SenderThread:10792 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 23:12:42,724 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 23:12:47,757 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 23:12:52,792 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 23:12:54,300 INFO    Thread-17 :10792 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_231221-al6ns3xh\files\config.yaml
+2023-03-19 23:12:55,174 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 23:12:55,174 DEBUG   SenderThread:10792 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 23:12:58,690 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 23:13:03,722 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 23:13:08,739 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 23:13:10,188 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 23:13:10,188 DEBUG   SenderThread:10792 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 23:13:13,828 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 23:13:18,852 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 23:13:23,268 DEBUG   SystemMonitor:10792 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2023-03-19 23:13:23,284 DEBUG   SenderThread:10792 [sender.py:send():336] send: stats
+2023-03-19 23:13:24,296 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 23:13:25,219 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 23:13:25,226 DEBUG   SenderThread:10792 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 23:13:29,783 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 23:13:34,827 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 23:13:39,851 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 23:13:40,227 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 23:13:40,227 DEBUG   SenderThread:10792 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 23:13:45,778 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 23:13:50,576 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-19 23:13:50,591 DEBUG   SenderThread:10792 [sender.py:send():336] send: history
+2023-03-19 23:13:50,591 DEBUG   SenderThread:10792 [sender.py:send_request():363] send_request: summary_record
+2023-03-19 23:13:50,607 INFO    SenderThread:10792 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-19 23:13:51,169 INFO    Thread-17 :10792 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_231221-al6ns3xh\files\wandb-summary.json
+2023-03-19 23:13:51,625 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 23:13:53,209 INFO    Thread-17 :10792 [dir_watcher.py:_on_file_modified():295] file/dir modified: G:\Other computers\My Computer\Courses\Deep learning 2023\CS6910_Assignment1\wandb\run-20230319_231221-al6ns3xh\files\output.log
+2023-03-19 23:13:53,304 DEBUG   SenderThread:10792 [sender.py:send():336] send: stats
+2023-03-19 23:13:55,250 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-19 23:13:55,250 DEBUG   SenderThread:10792 [sender.py:send_request():363] send_request: stop_status
+2023-03-19 23:13:56,782 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 23:14:01,762 ERROR   cpu       :10792 [interfaces.py:monitor():141] Failed to sample metric: psutil.NoSuchProcess process no longer exists (pid=7492)
+2023-03-19 23:14:01,767 ERROR   cpu       :10792 [interfaces.py:monitor():141] Failed to sample metric: psutil.NoSuchProcess process no longer exists (pid=7492)
+2023-03-19 23:14:01,822 DEBUG   HandlerThread:10792 [handler.py:handle_request():144] handle_request: status_report
+2023-03-19 23:14:02,983 INFO    MainThread:10792 [internal.py:handle_exit():77] Internal process exited

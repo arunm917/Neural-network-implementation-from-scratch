@@ -1,0 +1,14 @@
+
+[784, 32, 10]
+
+  5%|█████████                                                                                                                                                                           | 1/20 [00:04<01:29,  4.71s/epoch]
+ training loss =  0.5285
+validation loss =  1.0591
+
+ 10%|██████████████████                                                                                                                                                                  | 2/20 [00:09<01:23,  4.64s/epoch]
+ training loss =  0.5086
+validation loss =  1.0464
+
+ 15%|███████████████████████████                                                                                                                                                         | 3/20 [00:14<01:24,  4.97s/epoch]
+ training loss =  0.5341
+validation loss =  1.0391

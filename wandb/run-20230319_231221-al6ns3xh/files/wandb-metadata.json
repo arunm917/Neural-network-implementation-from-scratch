@@ -1,0 +1,42 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.9.7",
+    "heartbeatAt": "2023-03-19T17:42:23.250882",
+    "startedAt": "2023-03-19T17:42:21.482208",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "g:\\Other computers\\My Computer\\Courses\\Deep learning 2023\\CS6910_Assignment1\\train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/arunm917/CS6910_Assignment1.git",
+        "commit": "6baaf28187fae8257250a2ced90d6bbd4c312220"
+    },
+    "email": "53330301+arunm917@users.noreply.github.com",
+    "root": "G:/Other computers/My Computer/Courses/Deep learning 2023/CS6910_Assignment1",
+    "host": "Arun-PC",
+    "username": "arunk",
+    "executable": "C:\\Users\\arunk\\anaconda3\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1382.0,
+        "min": 0.0,
+        "max": 1382.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1382.0,
+            "min": 0.0,
+            "max": 1382.0
+        }
+    ],
+    "disk": {
+        "total": 147.53222274780273,
+        "used": 139.29838180541992
+    },
+    "memory": {
+        "total": 7.729286193847656
+    }
+}
